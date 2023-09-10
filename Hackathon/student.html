@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student's Attendance</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="spinner-container" id="spiner">
+        <div class="spinner"></div>
+    </div>
+    <div id="header">
+        <i class="fas fa-chalkboard-teacher icon"></i>
+        <h1><span style="font-weight: bold; font-style: italic;">Student's Attendance</span> </h1>
+    </div>
+
+    <div id="login-options">
+        <a href="./attendance.html" class="login-button">
+            <i class="fa-solid fa-clipboard" id="fas"></i>  View Attendance 
+        </a>
+        <a href="./index.html" class="login-button">
+            <i class="fa-solid fa-right-from-bracket" id="fas"></i> Logout
+        </a>
+    </div>
+
+
+
+    <script defer src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="module" src="./JavaScript/config.js"></script>
+    <script type="module" src="./JavaScript/app.js"></script>
+</body>
+</html>
